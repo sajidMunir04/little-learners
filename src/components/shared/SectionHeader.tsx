@@ -1,0 +1,19 @@
+import HeadingSubText from "./HeadingSubText";
+import SectionDescription from "./SectionDescription";
+import SectionHeading from "./SectionHeading";
+
+interface Props{
+    subText: string,
+    heading: string,
+    description: string
+}
+
+function SectionHeader(props : Props) {
+    return (<div>
+        <HeadingSubText text={props.subText}/>
+        <SectionHeading heading={props.heading}/>
+        <SectionDescription description={props.description}/>
+    </div>);
+}
+
+export default SectionHeader;

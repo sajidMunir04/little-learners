@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 86%;
+    margin: auto;
+    padding: 0% var(--padding-sides);
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    border-radius: 10px;    
+}
+
+.navSection{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+.logoContainer{
+
+}
+
+.contactLinkContainer{
+    width: 12%;
+    padding: 0% 2%;
+    border-left: 2px solid var(--gray-15);
+    border-right: 2px solid var(--gray-15);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.linkContainer{
+    width: 12%;
+    padding: 0% 2%;
+    border-left: 2px solid var(--gray-15);
+    border-right: 2px solid var(--gray-15);
+    border-collapse: collapse;
+}
