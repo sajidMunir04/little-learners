@@ -8,9 +8,11 @@ import NavigateSection from './components/home/NavigateSection';
 import TestimonialSection from './components/home/TestimonialSection';
 import Footer from './components/shared/Footer';
 import Header from './components/shared/Header';
+import SaleBanner from './components/shared/SaleBanner';
 
 function App() {
   return (<>
+      <SaleBanner description='Admission is Open, Grab your seat now'/>
       <Header/>
       <MainBanner/>
       <BenefitSection/>

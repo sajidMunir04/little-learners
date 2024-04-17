@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    width: var(--component-size);
+    margin: auto;
+    border: 2px solid var(--gray-15);
+    height: 50px;
+    margin-block: 1%;
+    border-radius: 8px;
+}
+
+.contentContainer{
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundContainer{
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imageContainer{
+    display: flex;
+    overflow: hidden;
+}
+
+.image{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    object-fit:cover;
+    overflow: hidden;
+}

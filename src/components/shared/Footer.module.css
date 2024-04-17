@@ -1,0 +1,26 @@
+.container{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    background-color: var(--absolute-white);
+    flex-direction: column;
+    padding: 2% 3%;
+}
+
+.subContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.linksContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.linkHeading{
+
+}
+
+.linkText{
+
+}

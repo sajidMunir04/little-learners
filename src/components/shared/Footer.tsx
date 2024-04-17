@@ -1,8 +1,10 @@
+import styles from "./Footer.module.css";
+
 
 function Footer()
 {
-    return (<div>
-        <div>
+    return (<div className={styles.container}>
+        <div className={styles.subContainer}>
             <div>
                 <div>
                     <div>
@@ -31,45 +33,45 @@ function Footer()
                     </div>
                 </div>
             </div>
-            <div>
+            <div className={styles.linksContainer}>
                 <div>
                     <div>
-                        <p>Home</p>
+                        <p className={styles.linkHeading}>Home</p>
                     </div>
                     <div>
-                        <a href="#">Features</a>
-                        <a href="#">Our Testimonials</a>
-                        <a href="#">FAQ</a>
+                        <a className={styles.linkText} href="#">Features</a>
+                        <a className={styles.linkText} href="#">Our Testimonials</a>
+                        <a className={styles.linkText} href="#">FAQ</a>
                     </div>
                 </div>
                 <div>
                 <div>
-                        <p>Home</p>
+                        <p className={styles.linkHeading}>Home</p>
                     </div>
                     <div>
-                        <a href="#">Features</a>
-                        <a href="#">Our Testimonials</a>
-                        <a href="#">FAQ</a>
+                        <a className={styles.linkText} href="#">Features</a>
+                        <a className={styles.linkText} href="#">Our Testimonials</a>
+                        <a className={styles.linkText} href="#">FAQ</a>
                     </div>
                 </div>
                 <div>
                 <div>
-                        <p>Home</p>
+                        <p className={styles.linkHeading}>Home</p>
                     </div>
                     <div>
-                        <a href="#">Features</a>
-                        <a href="#">Our Testimonials</a>
-                        <a href="#">FAQ</a>
+                        <a className={styles.linkText} href="#">Features</a>
+                        <a className={styles.linkText} href="#">Our Testimonials</a>
+                        <a className={styles.linkText} href="#">FAQ</a>
                     </div>
                 </div>
                 <div>
                 <div>
-                        <p>Home</p>
+                        <p className={styles.linkHeading}>Home</p>
                     </div>
                     <div>
-                        <a href="#">Features</a>
-                        <a href="#">Our Testimonials</a>
-                        <a href="#">FAQ</a>
+                        <a className={styles.linkText} href="#">Features</a>
+                        <a className={styles.linkText} href="#">Our Testimonials</a>
+                        <a className={styles.linkText} href="#">FAQ</a>
                     </div>
                 </div>
             </div>
