@@ -1,8 +1,9 @@
 import SectionHeader from "../shared/SectionHeader";
 import TestimonialCard from "../shared/TestimonialCard";
+import styles from "./TestimonialSection.module.css";
 
 function TestimonialSection(){
-    return (<div>
+    return (<div className={styles.container}>
         <div>
             <SectionHeader subText="Their Happy Words 🤗" heading="Our Testimonials" description="Our testimonials are heartfelt reflections of 
             the nurturing environment we provide, where children flourish both academically and emotionally."/>

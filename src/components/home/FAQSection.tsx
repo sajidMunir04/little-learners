@@ -1,8 +1,9 @@
 import QuestionElement from "../shared/QuestionElement";
 import SectionHeader from "../shared/SectionHeader";
+import styles from "./FAQSection.module.css";
 
 function FAQSection(){
-    return (<div>
+    return (<div className={styles.container}>
         <div>
             <SectionHeader subText="Solutions For The Doubts" heading="Frequently Asked Questions" description="Find all the essential information you need in our FAQ section, designed to address the most frequently asked questions and 
             help you make informed decisions for your child's education."/>

@@ -1,6 +1,7 @@
 import HeadingSubText from "./HeadingSubText";
 import SectionDescription from "./SectionDescription";
 import SectionHeading from "./SectionHeading";
+import styles from "./SectionHeader.module.css";
 
 interface Props{
     subText: string,
@@ -9,7 +10,7 @@ interface Props{
 }
 
 function SectionHeader(props : Props) {
-    return (<div>
+    return (<div className={styles.container}>
         <HeadingSubText text={props.subText}/>
         <SectionHeading heading={props.heading}/>
         <SectionDescription description={props.description}/>

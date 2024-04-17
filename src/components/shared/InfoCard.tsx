@@ -1,3 +1,5 @@
+import styles from "./InfoCard.module.css";
+
 
 interface Props{
     heading: string,
@@ -8,13 +10,13 @@ interface Props{
 
 function InfoCard(props : Props)
 {
-    return (<div>
-        <div>
-            <div>
+    return (<div className={styles.container}>
+        <div className={styles.imageSection}>
+            <div className={styles.imageContainer}>
                 <img src={props.imageLink}/>
             </div>
         </div>
-        <div>
+        <div className={styles.textSection}>
             <p>{props.heading}</p>
             <p>{props.description}</p>
         </div>

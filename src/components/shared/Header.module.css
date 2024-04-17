@@ -18,6 +18,7 @@
     align-items: center;
     border-collapse: collapse;
     text-align: center;
+    line-height: 0;
 }
 
 
@@ -35,9 +36,14 @@
 }
 
 .linkContainer{
-    width: 12%;
+    display: inline-block;
+    width: max-content;
     padding: 0% 2%;
     border-left: 2px solid var(--gray-15);
     border-right: 2px solid var(--gray-15);
     border-collapse: collapse;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

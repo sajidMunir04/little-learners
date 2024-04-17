@@ -1,0 +1,28 @@
+.container{
+    width: 30%;
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    border-radius: 12px;
+    padding: 2% 3%;
+    box-sizing: border-box;
+    display: grid;
+}
+
+
+.imageSection{
+    grid-area: 1 / 1 / 16 / 3;
+}
+
+.imageContainer{
+    background-color: var(--orange-90);
+    width: 46px;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.textSection{
+    grid-area: 1 / 1 / 16 / 3;
+}
