@@ -1,14 +1,17 @@
+@import url(../../fonts.css);
+
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: var(--component-size);
     margin: auto;
-    padding: 0% 2%;
     background-color: var(--absolute-white);
     border: 2px solid var(--gray-15);
     border-radius: 10px;    
     box-sizing: border-box;
+    overflow: hidden;
+    height: 60px;
 }
 
 .navSection{
@@ -24,16 +27,26 @@
 
 
 .logoContainer{
+    width: auto;
+    background-color: var(--orange-65);
+    display: flex;
+}
 
+.logo{
+    width: 90%;
+    margin: auto;
 }
 
 .contactLinkContainer{
     width: 12%;
+    height: 100%;
     padding: 0% 2%;
     border-left: 2px solid var(--gray-15);
-    border-right: 2px solid var(--gray-15);
-    border-collapse: collapse;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange-75);
 }
 
 .linkContainer{
@@ -41,10 +54,18 @@
     width: max-content;
     padding: 0% 2%;
     border-left: 2px solid var(--gray-15);
-    border-right: 2px solid var(--gray-15);
     border-collapse: collapse;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -1px;
+}
+
+.link{
+    font-family: Outfit-Medium;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: var(--gray-15);
+    text-decoration: none;
 }

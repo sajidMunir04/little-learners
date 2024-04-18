@@ -1,3 +1,5 @@
+import styles from "./HeadingSubText.module.css";
+
 interface Props{
     text: string
 }
@@ -5,7 +7,7 @@ interface Props{
 
 function HeadingSubText(props : Props)
 {
-    return (<div><p>{props.text}</p></div>);
+    return (<p className={styles.text}>{props.text}</p>);
 }
 
 export default HeadingSubText;

@@ -3,8 +3,57 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     width: 44%;
     padding: 2% 3%;
     box-sizing: border-box;
+    border: 2px solid var(--gray-15);
+    border-radius: 8px;
+}
+
+.contenContainer{
+    width: 92%;
+}
+
+.questionContainer{
+
+}
+
+.questionText{
+    font-family: Outfit-SemiBold;
+    font-size: 18px;
+    color: var(--gray-20);
+    margin: 0%;
+}
+
+.answerContainer{
+    border-top: 1px solid var(--gray-15);
+}
+
+.answerText{
+    font-family: Outfit-Medium;
+    font-size: 16px;
+    color: var(--gray-20);
+}
+
+.clickedState{
+    background-color: var(--absolute-white);
+}
+
+.buttonContainer{
+
+}
+
+.button{
+    display: flex;
+    width: 28px;
+    height: 28px;
+    background-color: var(--orange-97);
+    border: 2px solid var(--gray-15);
+    border-radius: 8px;
+}
+
+.btnImage{
+    margin: auto;
+    width: 50%;
 }

@@ -1,3 +1,5 @@
+import styles from "./TestimonialCard.module.css";
+
 
 interface Props {
     authorImageLink: string,
@@ -9,18 +11,22 @@ interface Props {
 
 function TestimonialCard(props : Props)
 {
-    return (<div>
+    return (<div className={styles.container}>
         <div>
-            <div>
+            <div className={styles.imageContainer}>
                 <img src={props.authorImageLink}/>
             </div>
-            <p>{props.authorName}</p>
+            <p className={styles.authorNameText}>{props.authorName}</p>
+        </div>
+        <div className={styles.starsContainer}>
+            <img src="/star.svg" alt="star"/>
+            <img src="/star.svg" alt="star"/>
+            <img src="/star.svg" alt="star"/>
+            <img src="/star.svg" alt="star"/>
+            <img src="/star.svg" alt="star"/>
         </div>
         <div>
-
-        </div>
-        <div>
-            <p>{props.review}</p>
+            <p className={styles.reviewText}>{props.review}</p>
         </div>
     </div>);
 }

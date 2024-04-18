@@ -1,0 +1,13 @@
+.container{
+    width: 50px;
+    height: 50px;
+    background-color: var(--absolute-white);
+    border: 3px solid var(--gray-20);
+    border-radius: 8px;
+    display: flex;
+}
+
+.image {
+    margin: auto;
+    image-orientation: flip;
+}

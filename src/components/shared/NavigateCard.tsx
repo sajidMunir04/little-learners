@@ -9,19 +9,26 @@ interface Props{
 
 function NavigateCard(props : Props) {
     return (<div className={styles.container}>
-        <div>
+        <div className={styles.contentContainer}>
             <div>
-                <h3>{props.heading}</h3>
+                <h3 className={styles.headingText}>{props.heading}</h3>
+            </div>
+            <div className={styles.borderContainer}>
+                <div className={styles.borderPart}></div>
+                <div className={styles.borderPart}></div>
+                <div className={styles.borderPart}></div>
+                <div className={styles.borderPart}></div>
+                <div className={styles.borderPart}></div>
             </div>
             <div>
-
-            </div>
-            <div>
-                <p>{props.description}</p>
+                <p className={styles.descriptionText}>{props.description}</p>
             </div>
         </div>
-        <div>
-            <a href={props.link}>Learn More</a>
+        <div className={styles.linkContainer}>
+            <div className={styles.link}>
+                <a className={styles.linkText} href={props.link}>Learn More</a>
+                <img className={styles.arrowImage} src="/arrow.svg"/>
+            </div>
         </div>
     </div>);
 }

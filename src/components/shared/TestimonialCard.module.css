@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--absolute-white);
+    width: 30%;
+    height: 100%;
+    border: 3px solid var(--gray-15);
+    border-radius: 14px;
+    text-align: center;
+}
+
+.imageContainer{
+    padding: 2%;
+    background-color: var(--orange-90);
+    border: 1px solid var(--gray-15);
+    border-radius: 50px;
+}
+
+.authorNameText{
+    font-family: Outfit-SemiBold;
+    font-size: 20px;
+    color: #333333;
+}
+
+.starsContainer{
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reviewText{
+    font-family: Outfit-Medium;
+    font-size: 16px;
+    color: var(--gray-20);
+}

@@ -22,3 +22,8 @@
     font-family: Outfit-SemiBold;
     src: url(../public/fonts/outfit/Outfit-SemiBold.ttf);
 }
+
+@font-face {
+    font-family: Outfit-ExtraBold;
+    src: url(../public/fonts/outfit/Outfit-ExtraBold.ttf);
+}

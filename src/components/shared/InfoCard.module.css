@@ -3,14 +3,16 @@
     background-color: var(--absolute-white);
     border: 2px solid var(--gray-15);
     border-radius: 12px;
-    padding: 2% 3%;
+    padding: 3% 2%;
     box-sizing: border-box;
-    display: grid;
+    position: relative;
+    margin-bottom: 4%;
 }
 
 
 .imageSection{
-    grid-area: 1 / 1 / 16 / 3;
+    position: absolute;
+    top: -12.5%;
 }
 
 .imageContainer{
@@ -21,8 +23,29 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border: 2px solid var(--gray-15);
+    border-radius: 8px;
+}
+
+.image{
+    margin: auto;
+    width: 60%;
 }
 
 .textSection{
     grid-area: 1 / 1 / 16 / 3;
+}
+
+.headingText{
+    font-family: Raleway-Bold;
+    color: var(--gray-10);
+}
+
+.descriptionText{
+    font-family: Outfit-Medium;
+    color: var(--gray-30);
+}
+
+.descriptionText{
+
 }

@@ -1,0 +1,10 @@
+.text{
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    padding: 1% 1%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-family: Outfit-Medium;
+    font-size: 14px;
+    color: var(--gray-20);
+}

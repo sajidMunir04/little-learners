@@ -1,5 +1,5 @@
 
-
+import './fonts.css';
 import './App.css'
 import BenefitSection from './components/home/BenefitSection';
 import FAQSection from './components/home/FAQSection';

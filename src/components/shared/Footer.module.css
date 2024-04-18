@@ -1,26 +1,137 @@
 .container{
-    width: 92%;
+    width: var(--component-size);
     margin: auto;
     display: flex;
     background-color: var(--absolute-white);
     flex-direction: column;
-    padding: 2% 3%;
+    padding: 3% 4%;
+    margin-bottom: 3%;
+    border: 2px solid var(--gray-15);
+    border-radius: 8px;
+    box-sizing: border-box;
 }
 
 .subContainer{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoContainer{
+    width: 34%;
 }
 
 .linksContainer{
     display: flex;
     flex-direction: row;
+    width: 60%;
+}
+
+.links{
+    width: 25%;
 }
 
 .linkHeading{
-
+    font-family: Outfit-SemiBold;
+    font-size: 18px;
+    color: var(--gray-15);
 }
 
 .linkText{
+    display: block;
+    font-family: Outfit-Medium;
+    font-size: 16px;
+    color: var(--gray-20);
+    text-decoration: none;
+    margin-bottom: 12%;
+}
 
+.mottoText{
+    font-family: Outfit-Medium;
+    font-size: 16px;
+}
+
+.contactInfoSection{
+
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contactInfoImage{
+    margin: auto;
+    width: 74%;
+}
+
+.contactInfoText{
+    margin-left: 2%;
+    font-family: Outfit-Medium;
+    font-size: 16px;
+    color: var(--gray-15);
+}
+
+.contactInfoImageContainer{
+    width: 30px;
+    height: 30px;
+    background-color: var(--orange-97);
+    border: 2px solid var(--gray-15);
+    display: flex;
+    border-radius: 6px;
+}
+
+.brandLinkSection{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--gray-15);
+    border-inline: none;
+    overflow: hidden;
+}
+
+.policiesSection{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.policyLink{
+    text-decoration: none;
+    color: var(--gray-20);
+    font-family: Outfit-Medium;
+    font-size: 16px;
+    padding-left: 3%;
+    border-left: 2px solid var(--gray-20);
+    margin-left: -3%;
+}
+
+.socialLinkSection{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.socialLinkButton{
+    width: 44px;
+    height: 44px;
+    background-color: var(--orange-90);
+    display: flex;
+    border: 3px solid var(--gray-15);
+    border-radius: 8px;
+    margin-inline: 1%;
+}
+.socialButtonIcon{
+    margin: auto;
+    width: 60%;
+}
+.footerNoteSection{
+    text-align: center;
+    font-family: Outfit-Medium;
+    color: var(--gray-40);
 }

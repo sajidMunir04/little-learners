@@ -5,26 +5,26 @@ function Header()
 {
     return (<div className={styles.container}>
         <div className={styles.logoContainer}>
-            <img src="/Logo(1).svg" alt="brand logo"/>
+            <img className={styles.logo} src="/Logo(1).svg" alt="brand logo"/>
         </div>
         <nav className={styles.navSection}>
             <div className={styles.linkContainer}>
-                <a href="#">Home</a>
+                <a className={styles.link} href="#">Home</a>
             </div>
             <div className={styles.linkContainer}>
-                <a href="#">About Us</a>
+                <a className={styles.link} href="#">About Us</a>
             </div>
             <div className={styles.linkContainer}>
-                <a href="#">Academics</a>
+                <a className={styles.link} href="#">Academics</a>
             </div>
             <div className={styles.linkContainer}>
-                <a href="#">Admissions</a>
+                <a className={styles.link} href="#">Admissions</a>
             </div>
             <div className={styles.linkContainer}>
-                <a href="#">Student Life</a>
+                <a className={styles.link} href="#">Student Life</a>
             </div>
             <div className={styles.contactLinkContainer}>
-                <a href="#">Contact</a>
+                <a className={styles.link} href="#">Contact</a>
             </div>
         </nav>
     </div>);
