@@ -1,3 +1,6 @@
+import HeadingSubText from "./HeadingSubText";
+import styles from "./PageBanner.module.css";
+
 
 interface Props {
     subText: string,
@@ -8,17 +11,17 @@ interface Props {
 
 function PageBanner(props : Props)
 {
-    return (<div>
-        <div>
+    return (<div className={styles.container}>
+        <div className={styles.headingContainer}>
             <div>
-                <div>
-                    <p>{props.subText}</p>
+                <div className={styles.subContainer}>
+                    <p className={styles.text}>{props.subText}</p>
                 </div>
-                <h1>{props.heading}</h1>
+                <h1 className={styles.headingText}>{props.heading}</h1>
             </div>
         </div>
-        <div>
-            <div><p>{props.description}</p></div>   
+        <div className={styles.textContainer}>
+            <p className={styles.descriptionText}>{props.description}</p>   
         </div>
     </div>);
 }

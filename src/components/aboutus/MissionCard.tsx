@@ -1,4 +1,4 @@
-
+import styles from "./MissionCard.module.css";
 
 interface Props{
     heading: string,
@@ -8,17 +8,17 @@ interface Props{
 
 function MissionCard(props : Props)
 {
-    return (<div>
-        <div>
+    return (<div className={styles.container}>
+        <div className={styles.header}>
             <div>
-                <h3>{props.heading}</h3>
+                <h3 className={styles.headingText}>{props.heading}</h3>
             </div>
             <div>
                 <img src={props.imageLink}/>
             </div>
         </div>
         <div>
-            <p>{props.description}</p>
+            <p className={styles.descriptionText}>{props.description}</p>
         </div>
     </div>);
 }

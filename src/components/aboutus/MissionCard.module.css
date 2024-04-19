@@ -1,0 +1,36 @@
+.container{
+    width: 48%;
+    background-color: var(--absolute-white);
+    padding: 4% 3%;
+    box-sizing: border-box;
+    height: 80%;
+    border: 2px solid var(--gray-15);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+}
+
+.headingText{
+    font-family: Raleway-Bold;
+    font-size: 44px;
+    margin: 0%;
+    color: var(--gray-10);
+}
+
+.textContainer{
+    height: 40%;
+}
+
+.descriptionText{
+    font-family: Outfit-Medium;
+    font-size: 18px;
+}

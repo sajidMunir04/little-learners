@@ -24,7 +24,7 @@ function TestimonialSection(){
                 second home for my child. The caring staff and engaging programs have made her excited to go to school every day!"/>
             </div>
             <div className={styles.buttonContainerLast}>
-                <ArrowButton onClick={() => {}}/>
+                <ArrowButton rotated={true} onClick={() => {}}/>
             </div>
         </div>
     </div>);

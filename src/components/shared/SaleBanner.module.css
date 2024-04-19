@@ -6,6 +6,8 @@
     height: 50px;
     margin-block: 1%;
     border-radius: 8px;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
 }
 
 .contentContainer{
@@ -15,24 +17,65 @@
     align-items: center;
 }
 
+.description{
+    font-family: Outfit-Medium;
+    font-size: 18px;
+    color: var(--gray-15);
+}
+
 .backgroundContainer{
     grid-area: 1 / 1 / 2 / 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    height: 100%;
 }
 
 .imageContainer{
+    height: 100%;
     display: flex;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: flex-start;
     overflow: hidden;
 }
 
-.image{
-    display: inline-block;
-    width: 100%;
-    height: auto;
-    margin: auto;
-    object-fit:cover;
+.secondImageContainer{
+    display: flex;
     overflow: hidden;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.image{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.secondImage{
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    transform: rotateY(180deg);
+    object-fit: fill;
+}
+
+.largePatternContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 16%;
+}
+
+.patternContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    width: 16%;
 }

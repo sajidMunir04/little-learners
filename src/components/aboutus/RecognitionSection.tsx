@@ -1,9 +1,11 @@
+import ArrowButton from "../shared/ArrowButton";
 import InfoCard from "../shared/InfoCard";
 import SectionHeader from "../shared/SectionHeader";
+import styles from "./RecognitionSection.module.css";
 
 function RecognitionSection()
 {
-    return (<div>
+    return (<div className={styles.container}>
         <div>
             <SectionHeader subText="Our Achievements" heading="Our Awards and Recognitions" description="Little Learners Academy takes pride 
             in our commitment to delivering high-quality education and outstanding student experiences. We are honored to 
@@ -43,10 +45,14 @@ function RecognitionSection()
                 </div>
                 <div>
                     <div>
-
+                        <ArrowButton onClick={function (): void {
+                            
+                        } }/>
                     </div>
                     <div>
-
+                        <ArrowButton rotated={true} onClick={function (): void {
+                            
+                        } }/>
                     </div>
                 </div>
             </div>

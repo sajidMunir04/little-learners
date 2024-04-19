@@ -11,3 +11,7 @@
     margin: auto;
     image-orientation: flip;
 }
+
+.rotated {
+    transform: rotateY(180deg);
+}
