@@ -1,3 +1,5 @@
+import styles from "./CourseCard.module.css";
+
 interface Props{
     imageLink: string,
     courseName: string,
@@ -6,18 +8,18 @@ interface Props{
 
 function CourseCard(props : Props)
 {
-    return (<div>
-        <div>
+    return (<div className={styles.container}>
+        <div className={styles.imageContainer}>
+            <div className={styles.imageBackground}>
 
+            </div>
+            <div className={styles.imageParent}>
+                <img className={styles.image} src={props.imageLink} alt="course info image"/>
+            </div>
         </div>
-        <div>
-            <div>
-                <img src={props.imageLink} alt="course info image"/>
-            </div>
-            <div>
-                <p>{props.courseName}</p>
-                <p>{props.courseDescription}</p>
-            </div>
+        <div className={styles.textContainer}>
+            <p className={styles.headingText}>{props.courseName}</p>
+            <p className={styles.descriptionText}>{props.courseDescription}</p>
         </div>
     </div>);
 }

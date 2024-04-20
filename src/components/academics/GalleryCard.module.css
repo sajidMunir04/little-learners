@@ -1,0 +1,64 @@
+.container{
+    width: 100%;
+    height: 18%;
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    position: relative;
+    margin-top: 16%;
+}
+
+
+.contentSection{
+    position: absolute;
+    bottom: 0%;
+    padding: 0% 2%;
+}
+
+.imagesContainer{
+    position: absolute;
+    width: 100%;
+    top: -42%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.imageParent{
+    width: 20%;
+    height: 60%;
+    display: flex;
+}
+
+.image{
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+.headingText{
+    font-family: Raleway-Bold;
+    font-size: 36px;
+    color: var(--gray-10);
+}
+
+.descriptionText{
+    font-family: Outfit-Medium;
+    font-size: 18px;
+    color: var(--gray-30);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonsContainer{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

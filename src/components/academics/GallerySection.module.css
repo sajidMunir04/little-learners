@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    padding: 0% var(--padding-sides);
+    box-sizing: border-box;
+    height: 3200px;
+}
+
+.contentSection{
+    height: 84%;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.contentContainer{
+    height: 90%;
+}

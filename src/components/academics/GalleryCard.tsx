@@ -1,4 +1,5 @@
-
+import ArrowButton from "../shared/ArrowButton";
+import styles from "./GalleryCard.module.css";
 
 interface Props {
     imagesLink: string[],
@@ -8,17 +9,25 @@ interface Props {
 
 function GalleryCard(props : Props)
 {
-    return (<div>
-        <div>
-            <div>
-                {props.imagesLink.map((item) => (<div>
-                    <img src={item} alt="gallery image"/>
-                </div>))}
-            </div>
+    return (<div className={styles.container}>
+        <div className={styles.imagesContainer}>
+            {props.imagesLink.map((item) => (<div className={styles.imageParent}>
+                <img className={styles.image} src={item} alt="gallery image"/>
+            </div>))}
         </div>
-        <div>
-            <h4>{props.heading}</h4>
-            <p>{props.description}</p>
+        <div className={styles.contentSection}>
+            <div className={styles.header}>
+            <h4 className={styles.headingText}>{props.heading}</h4>
+            <div className={styles.buttonsContainer}>
+                <ArrowButton onClick={function (): void {
+                        
+                    } } />
+                <ArrowButton rotated={true} onClick={function (): void {
+                    
+                } } />
+            </div>
+            </div>
+            <p className={styles.descriptionText}>{props.description}</p>
         </div>
     </div>);
 }

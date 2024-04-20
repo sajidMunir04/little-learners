@@ -1,0 +1,93 @@
+.container{
+    width: 49%;
+    height: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    border-radius: 8px;
+    padding: 2% 3%;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+}
+
+.profileSection{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.memberDetailSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.memberPhotoContainer{
+    background-color: #FFF5F0;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    border: 2px solid var(--gray-15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.authorName{
+    font-family: Raleway-ExtraBold;
+    font-size: 28px;
+    color: #333333;
+}
+
+.memberPhoto{
+    margin: auto;
+    width: 90%;
+    height: auto;
+}
+
+.qualificationSection{
+    background-color: var(--orange-97);
+    border: 2px solid var(--gray-15);
+    height: 60%;
+    border-radius: 12px;
+    padding: 2% 4%;
+}
+
+.qualificationHeading{
+    font-family: Outfit-Medium;
+    font-size: 20px;
+    color: var(--gray-20);
+}
+
+.qualificationDescription{
+    font-family: Outfit-Medium;
+    line-height: 20px;
+    font-size: 16px;
+    color: var(--gray-20); 
+}
+
+.buttonContainer{
+    width: 44px;
+    height: 44px;
+}
+
+.button{
+    width: 100%;
+    height: 100%;
+    background-color: var(--orange-90);
+    border: 2px solid var(--gray-15);
+    display: flex;
+    border-radius: 7px;
+}
+
+.btnImage{
+    margin: auto;
+    width: 60%;
+}

@@ -9,6 +9,7 @@ import Contact from './pages/Contact.tsx';
 import Home from './pages/Home.tsx';
 import StudentLife from './pages/StudentLife.tsx';
 import './App.css';
+import './fonts.css';
 
 const router = createBrowserRouter([
   {

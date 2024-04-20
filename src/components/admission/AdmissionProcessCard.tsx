@@ -1,3 +1,5 @@
+import styles from "./AdmissionProcessCard.module.css";
+
 interface Props{
     index: string,
     heading: string,
@@ -7,15 +9,11 @@ interface Props{
 
 function AdmissionProcessCard(props : Props)
 {
-    return (<div>
-        <div>
-            <div>
-                <p>{props.index}</p>
-            </div>
-        </div>
-        <div>
-            <h4>{props.heading}</h4>
-            <p>{props.description}</p>
+    return (<div className={styles.container}>
+        <p className={styles.indexText}>{props.index}</p>
+        <div className={styles.contentContainer}>
+            <h4 className={styles.headingText}>{props.heading}</h4>
+            <p className={styles.descriptionText}>{props.description}</p>
         </div>
     </div>);
 }

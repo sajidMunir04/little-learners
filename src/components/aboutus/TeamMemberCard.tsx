@@ -1,4 +1,4 @@
-
+import styles from "./TeamMemberCard.module.css";
 
 interface Props{
     imageLink: string,
@@ -9,25 +9,25 @@ interface Props{
 
 function TeamMemberCard(props : Props)
 {
-    return (<div>
-        <div>
-            <div>
-                <div>
-                    <img src={props.imageLink} alt="team member picture"/>
+    return (<div className={styles.container}>
+        <div className={styles.profileSection}>
+            <div className={styles.memberDetailSection}>
+                <div className={styles.memberPhotoContainer}>
+                    <img className={styles.memberPhoto} src={props.imageLink} alt="team member picture"/>
                 </div>
                 <div>
-                    <p>{props.name}</p>
+                    <p className={styles.authorName}>{props.name}</p>
                 </div>
             </div>
-            <div>
-                <div>
-                    <img src="/Icon(5).svg"/>
+            <div className={styles.buttonContainer}>
+                <div className={styles.button}>
+                    <img className={styles.btnImage} src="/Icon(5).svg"/>
                 </div>
             </div>
         </div>
-        <div>
-            <p>Qualification:{props.qualification}</p>
-            <p>{props.introduction}</p>
+        <div className={styles.qualificationSection}> 
+            <p className={styles.qualificationHeading}>Qualification:{props.qualification}</p>
+            <p className={styles.qualificationDescription}>{props.introduction}</p>
         </div>
     </div>);
 }

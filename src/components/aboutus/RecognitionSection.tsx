@@ -13,22 +13,7 @@ function RecognitionSection()
             These accolades reflect our team's relentless efforts in creating an exceptional learning environment for our students."/>
         </div>
         <div>
-            <div>
-                <InfoCard heading="Outstanding Early Childhood Education Awar" imageLink="/Icon(2).svg" description="Presented by the National Association for the Education 
-                of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional 
-                early childhood education and fostering a nurturing learning environment."/>
-                <InfoCard heading="Outstanding Early Childhood Education Awar" imageLink="/Icon(2).svg" description="Presented by the National Association for the Education 
-                of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional 
-                early childhood education and fostering a nurturing learning environment."/>
-                <InfoCard heading="Outstanding Early Childhood Education Awar" imageLink="/Icon(2).svg" description="Presented by the National Association for the Education 
-                of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional 
-                early childhood education and fostering a nurturing learning environment."/>
-                <InfoCard heading="Outstanding Early Childhood Education Awar" imageLink="/Icon(2).svg" description="Presented by the National Association for the Education 
-                of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional 
-                early childhood education and fostering a nurturing learning environment."/>
-                <InfoCard heading="Outstanding Early Childhood Education Awar" imageLink="/Icon(2).svg" description="Presented by the National Association for the Education 
-                of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional 
-                early childhood education and fostering a nurturing learning environment."/>
+            <div className={styles.contentContainer}>
                 <InfoCard heading="Outstanding Early Childhood Education Awar" imageLink="/Icon(2).svg" description="Presented by the National Association for the Education 
                 of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional 
                 early childhood education and fostering a nurturing learning environment."/>
@@ -39,11 +24,11 @@ function RecognitionSection()
                 of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional 
                 early childhood education and fostering a nurturing learning environment."/>
             </div>
-            <div>
+            <div className={styles.infoSection}>
                 <div>
                     <p>8 More Awards</p>
                 </div>
-                <div>
+                <div className={styles.buttonsContainer}>
                     <div>
                         <ArrowButton onClick={function (): void {
                             

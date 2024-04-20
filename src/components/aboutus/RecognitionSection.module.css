@@ -4,3 +4,25 @@
     box-sizing: border-box;
     margin-top: 7%;
 }
+
+.contentContainer{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0%;
+    flex-grow: 0%;
+    justify-content: space-between;
+}
+
+.infoSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

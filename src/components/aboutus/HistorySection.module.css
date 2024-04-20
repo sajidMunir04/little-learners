@@ -1,0 +1,79 @@
+.container{
+    width: 100%;
+    padding: 0% var(--padding-sides);
+    box-sizing: border-box;
+    height: 1000px;
+}
+
+.contentContainer{
+    width: 100%;
+    height: 80%;
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    border-radius: 12px;
+    padding: 6% 3%;
+    box-sizing: border-box;
+}
+
+.infoPointContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.infoPoint{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 17%;
+}
+
+.infoPointFirstSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--gray-15);
+    width: 28%;
+    height: 100%;
+    padding: 0% 3%;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.infoPointImageContainer{
+    display: flex;
+    height: 60%;
+}
+
+.infoPointContentContainer{
+    width: 70%;
+}
+
+.infoPointImage{
+    margin: auto;
+    width: 60%;   
+}
+
+.infoHeading{
+    font-family: Raleway-Bold;
+    font-size: 24px;
+    color: var(--gray-10);
+    margin: 0%;
+}
+
+.infoDescription{
+    font-family: Outfit-Medium;
+    font-size: 18px;
+    color: var(--gray-20);
+}
+
+.dateText{
+    font-family: Raleway-Bold;
+    font-size: 64px;
+    color: var(--gray-10);
+}
