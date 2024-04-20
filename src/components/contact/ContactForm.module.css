@@ -1,0 +1,73 @@
+.container{
+    width: 100%;
+    padding: 0% var(--padding-sides);
+    box-sizing: border-box;
+}
+
+.contentContainer{
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    padding: 2% 3%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputFieldSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fieldContainer{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    font-family: Outfit-SemiBold;
+    font-size: 16px;
+    margin-bottom: 4%;
+    color: #4C4C4C;
+}
+
+.textAreaLabel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Outfit-SemiBold;
+    font-size: 16px;
+    color: #4C4C4C;
+}
+
+.input{
+    padding: 2% 3%;
+    font-family: Outfit-Medium;
+    font-size: 16px;
+    background: none;
+    margin-top: 3%;
+    color: var(--gray-35);
+}
+
+.textArea{
+    padding: 2% 1.5%;
+    font-family: Outfit-Medium;
+    font-size: 18px;
+    background: none;
+    margin-top: 3%;
+    color: var(--gray-35);
+}
+
+.button{
+    margin-top: 4%;
+    width: 100%;
+    height: 60px;
+    background-color: var(--orange-75);
+    border: 2px solid var(--gray-15);
+    color: var(--gray-15);
+    font-family: Outfit-Medium;
+    font-size: 20px;
+}

@@ -1,0 +1,62 @@
+.container{
+    width: var(--component-size);
+    margin: auto;
+    margin-top: 4%;
+    height: 370px;
+    box-sizing: border-box;
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 6%;
+    align-items: center;
+}
+
+.headingContainer{
+    width: 40%;
+}
+
+.headingText{
+    font-family: Raleway-Bold;
+    font-size: 44px;
+    color: var(--gray-10);
+}
+
+.descriptionText{
+    font-family: Outfit-Medium;
+    font-size: 18px;
+}
+
+.textContainer{
+    width: 44%;
+}
+
+.subContainer{
+    width: 20%;
+    text-align: center;
+}
+
+.text{
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    padding: 3% 5%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Outfit-Medium;
+    font-size: 14px;
+    color: var(--gray-20);
+}
+
+.contactDetail{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contactImageContainer{
+    background-color: var(--orange-97);
+    border: 2px solid var(--gray-15);
+    border-radius: 14px;
+}
