@@ -12,6 +12,9 @@ interface Props {
 function PageBanner(props : Props)
 {
     return (<div className={styles.container}>
+        <div className={styles.absImageContainer}>
+            <img className={styles.absImage} src="/images/common/boxes.svg"/>
+        </div>
         <div className={styles.headingContainer}>
             <div>
                 <div className={styles.subContainer}>

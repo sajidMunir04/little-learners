@@ -2,6 +2,7 @@ import HistorySection from "../components/aboutus/HistorySection";
 import MissionSection from "../components/aboutus/MissionSection";
 import RecognitionSection from "../components/aboutus/RecognitionSection";
 import TeamSection from "../components/aboutus/TeamSection";
+import Footer from "../components/shared/Footer";
 import Header from "../components/shared/Header";
 import PageBanner from "../components/shared/PageBanner";
 
@@ -14,6 +15,7 @@ function About() {
         <RecognitionSection/>
         <HistorySection/>
         <TeamSection/>
+        <Footer/>
     </>);
 }
 

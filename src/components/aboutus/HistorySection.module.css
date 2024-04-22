@@ -13,6 +13,7 @@
     border-radius: 12px;
     padding: 6% 3%;
     box-sizing: border-box;
+    position: relative;
 }
 
 .infoPointContainer{
@@ -43,6 +44,35 @@
     padding: 0% 3%;
     box-sizing: border-box;
     border-radius: 8px;
+    position: relative;
+}
+
+.infoPointFirstSection::before{
+    left: -28%;
+    top: 40%;
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.infoPointFirstSection::after{
+    top: 40%;
+    left: -5%;
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    border-radius: 50px;
+    z-index: 1;
 }
 
 .infoPointImageContainer{
@@ -52,6 +82,34 @@
 
 .infoPointContentContainer{
     width: 70%;
+    position: relative;
+}
+
+.infoPointContentContainer{
+    width: 70%;
+    position: relative;
+}
+
+.infoPointContentContainer::before{
+    left: -52.8%;
+    top: 57%;
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 102%;
+    background-color: var(--gray-10);
+    border: 5px solid var(--orange-65);
+}
+
+.infoPointContentContainer::after{
+    left: -52.8%;
+    top: 47%;
+    content: " ";
+    position: absolute;
+    width: 9%;
+    height: 2px;
+    background-color: var(--gray-10);
+    border: 5px solid var(--orange-65);
 }
 
 .infoPointImage{
@@ -64,6 +122,25 @@
     font-size: 24px;
     color: var(--gray-10);
     margin: 0%;
+}
+
+.lineArea{
+    position: absolute;
+    width: 78.75%;
+    height: 15%;
+}
+
+.lineArea::after{
+    top: 40%;
+    left: -5%;
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    border-radius: 50px;
 }
 
 .infoDescription{

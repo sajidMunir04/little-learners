@@ -7,6 +7,8 @@ function MainBanner()
         <div className={styles.imageSection}>
             <div className={styles.imageContainer}>
                 <img className={styles.image} src="/Image.png" alt="children posing for an image"/>
+                <div className={styles.markerContainer}>
+                </div>
             </div>
         </div>
         <div className={styles.textSection}>

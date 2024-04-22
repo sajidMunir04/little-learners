@@ -9,6 +9,7 @@
     border: 2px solid var(--gray-15);
     border-radius: 8px;
     box-sizing: border-box;
+    box-shadow: 4px 4px 0px 2px var(--gray-10);
 }
 
 .subContainer{
@@ -125,6 +126,7 @@
     border: 3px solid var(--gray-15);
     border-radius: 8px;
     margin-inline: 1%;
+    
 }
 .socialButtonIcon{
     margin: auto;

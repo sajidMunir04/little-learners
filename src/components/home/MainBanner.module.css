@@ -102,6 +102,38 @@
 }
 
 
+.markerContainer{
+    position: absolute;
+    width: 100%;
+    bottom: 2%;
+}
+
+.markerContainer::before{
+    right: -2%;
+    top: -2%;
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    border-radius: 50px;
+}
+
+.markerContainer::after{
+    top: -2%;
+    left: -2%;
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: var(--absolute-white);
+    border: 2px solid var(--gray-15);
+    border-radius: 50px;
+}
+
 .statsSection{
     display: flex;
     flex-direction: row;
@@ -109,7 +141,7 @@
     background-color: var(--orange-95);
     border: 2px solid var(--gray-15);
     border-radius: 12px;
-    box-shadow: 8px 4px 0px 5px var(--orange-75);
+    box-shadow: 4px 4px 0px 2px var(--orange-75);
     display: flex;
     justify-content: space-around;
     align-items: center;

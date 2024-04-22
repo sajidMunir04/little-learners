@@ -4,11 +4,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    width: 48%;
+    width: 100%;
     padding: 2% 3%;
     box-sizing: border-box;
     border: 2px solid var(--gray-15);
     border-radius: 8px;
+    margin-bottom: 2%;
 }
 
 .contenContainer{

@@ -12,9 +12,9 @@ interface Props {
 function TestimonialCard(props : Props)
 {
     return (<div className={styles.container}>
-        <div>
+        <div className={styles.infoContainer}>
             <div className={styles.imageContainer}>
-                <img src={props.authorImageLink}/>
+                <img className={styles.image} src={props.authorImageLink}/>
             </div>
             <p className={styles.authorNameText}>{props.authorName}</p>
         </div>

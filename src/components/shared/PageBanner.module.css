@@ -12,10 +12,22 @@
     justify-content: space-between;
     padding: 2% 6%;
     align-items: center;
+    position: relative;
+    box-shadow: 4px 4px 0px 2px var(--gray-10);
 }
 
 .headingContainer{
     width: 40%;
+}
+
+.absImageContainer{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.absImage{
+    width: 60%;
 }
 
 .headingText{

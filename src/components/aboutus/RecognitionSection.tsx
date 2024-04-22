@@ -26,7 +26,7 @@ function RecognitionSection()
             </div>
             <div className={styles.infoSection}>
                 <div>
-                    <p>8 More Awards</p>
+                    <p className={styles.infoText}>8 More Awards</p>
                 </div>
                 <div className={styles.buttonsContainer}>
                     <div>
