@@ -90,6 +90,26 @@
     position: relative;
 }
 
+.infoPointContentContainerAltered{
+    width: 70%;
+    position: relative;
+}
+
+.infoPointContentContainerAltered::before{
+    display: none;
+}
+
+.infoPointContentContainerAltered::after{
+    left: -52.8%;
+    top: 47%;
+    content: " ";
+    position: absolute;
+    width: 9%;
+    height: 2px;
+    background-color: var(--gray-10);
+    border: 5px solid var(--orange-65);
+}
+
 .infoPointContentContainer::before{
     left: -52.8%;
     top: 57%;

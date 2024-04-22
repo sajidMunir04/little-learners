@@ -60,7 +60,7 @@ function HistorySection()
                         </div>
                         <p className={styles.dateText}>2023</p>
                     </div>
-                    <div className={styles.infoPointContentContainer}>
+                    <div className={styles.infoPointContentContainerAltered}>
                         <h4 className={styles.infoHeading}>Resilience and Future Horizons</h4>
                         <p className={styles.infoDescription}>Adapting to new challenges, we remained committed to our mission of providing an exceptional 
                             early education. Looking ahead with optimism, we envision a future filled with boundless 

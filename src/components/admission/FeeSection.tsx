@@ -46,23 +46,23 @@ function FeeSection()
                 </table>
             </div>
             <div className={styles.servicesTableContainer}>
-                <table>
-                    <tr>
-                        <td>Additional Services</td>
+                <table className={styles.sectionHeadingTable}>
+                    <tr className={styles.serviceTableRow}>
+                        <td className={styles.serviceTableHeadCell}>Additional Services</td>
                     </tr>
                 </table>
-                <table>
-                    <tr>
-                        <td>Before and After-School Care</td>
-                        <td>$120 / per month</td>
+                <table className={styles.sectionDetailTable}>
+                    <tr className={styles.serviceTableRow}>
+                        <td className={styles.serviceTableCell}>Before and After-School Care</td>
+                        <td className={styles.serviceTableCell}>$120 / per month</td>
                     </tr>
-                    <tr>
-                        <td>Language Immersion Program</td>
-                        <td>$60 / per semester</td>
+                    <tr className={styles.serviceTableRow}>
+                        <td className={styles.serviceTableCell}>Language Immersion Program</td>
+                        <td className={styles.serviceTableCell}>$60 / per semester</td>
                     </tr>
-                    <tr>
-                        <td>Transportation (optional)</td>
-                        <td>$80 / per month</td>
+                    <tr className={styles.serviceTableRow}>
+                        <td className={styles.serviceTableCell}>Transportation (optional)</td>
+                        <td className={styles.serviceTableCell}>$80 / per month</td>
                     </tr>
                 </table>
             </div>

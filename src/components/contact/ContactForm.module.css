@@ -2,12 +2,14 @@
     width: 100%;
     padding: 0% var(--padding-sides);
     box-sizing: border-box;
+    margin-bottom: 4%;
 }
 
 .contentContainer{
     background-color: var(--absolute-white);
     border: 2px solid var(--gray-15);
     padding: 2% 3%;
+    border-radius: 12px;
 }
 
 .form{
@@ -50,6 +52,8 @@
     background: none;
     margin-top: 3%;
     color: var(--gray-35);
+    -moz-appearance: textfield;
+    appearance: textfield;
 }
 
 .textArea{
@@ -70,4 +74,5 @@
     color: var(--gray-15);
     font-family: Outfit-Medium;
     font-size: 20px;
+    margin-bottom: 4%;
 }

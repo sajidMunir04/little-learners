@@ -11,24 +11,12 @@ function GallerySection()
         </div>
         <div className={styles.contentSection}>
             <div className={styles.buttonsContainer}>
-                <div>
-                    <p>All</p>
-                </div>
-                <div>
-                    <p>Classrooms</p>
-                </div>
-                <div>
-                    <p>Library</p>
-                </div>
-                <div>
-                    <p>Science Lab</p>
-                </div>
-                <div>
-                    <p>Computer Lab</p>
-                </div>
-                <div>
-                    <p>Garden and Nature Area</p>
-                </div>
+                <button className={styles.button}>All</button>
+                <button className={styles.button}>Classrooms</button>
+                <button className={styles.button}>Library</button>
+                <button className={styles.button}>Science Lab</button>
+                <button className={styles.button}>Computer Lab</button>
+                <button className={styles.button}>Garden and Nature Area</button>
             </div>
             <div className={styles.contentContainer}>
                 <GalleryCard imagesLink={['/galleryImage.png','/galleryImage.png','/galleryImage.png','/galleryImage.png']} 

@@ -2,7 +2,8 @@
     width: 100%;
     padding: 0% var(--padding-sides);
     box-sizing: border-box;
-    height: 3200px;
+    height: fit-content;
+    margin-bottom: 6%;
 }
 
 .contentSection{
@@ -10,8 +11,25 @@
 }
 
 .buttonsContainer{
+    width: 58%;
+    margin: auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    background: none;
+    border: none;
+    padding: 1% 1.66%;
+    box-sizing: border-box;
+    background-color: var(--absolute-white);
+    color: var(--gray-10);
+    font-family: Outfit-SemiBold;
+    font-size: 14px;
+    border: 2px solid var(--gray-20);
+    border-radius: 6px;
 }
 
 .contentContainer{

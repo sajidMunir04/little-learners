@@ -12,6 +12,9 @@ interface Props {
 function PageBanner(props : Props)
 {
     return (<div className={styles.container}>
+        <div className={styles.absImageContainer}>
+            <img className={styles.absImage} src="/images/common/boxes.svg"/>
+        </div>
         <div className={styles.headingContainer}>
             <div>
                 <div className={styles.subContainer}>
@@ -20,34 +23,35 @@ function PageBanner(props : Props)
                 <h1 className={styles.headingText}>{props.heading}</h1>
             </div>
         </div>
+        <div></div>
         <div className={styles.textContainer}>
-            <p className={styles.descriptionText}>{props.description}</p>   
-            <div>
-                <div className={styles.contactDetail}>
-                    <div className={styles.contactImageContainer}>
-                        <img src="/images/Subtract.svg"/>
-                    </div>
-                    <p>hello@littlelearners.com</p>
+            <p className={styles.descriptionText}>{props.description}</p> 
+            <div className={styles.contactInfoContainer}>
+            <div className={styles.contactInfo}>
+                <div className={styles.contactInfoImgParent}>
+                    <img className={styles.contactInfoImg} src="/images/common/Subtract.svg"/>
                 </div>
-                <div className={styles.contactDetail}>
-                    <div className={styles.contactImageContainer}>
-                        <img src="/images/Subtract.svg"/>
-                    </div>
-                    <p>+91 91813 23 2309</p>
+                <p className={styles.contactInfoText}>hello@littlelearners.com</p>
+            </div>  
+            <div className={styles.contactInfo}>
+                <div className={styles.contactInfoImgParent}>
+                    <img className={styles.contactInfoImg} src="/images/common/Subtract.svg"/>
                 </div>
-                <div className={styles.contactDetail}>
-                    <div className={styles.contactImageContainer}>
-                        <img src="/images/Subtract.svg"/>
-                    </div>
-                    <p>Somewhere in the World</p>
+                <p className={styles.contactInfoText}>hello@littlelearners.com</p>
+            </div>  
+            <div className={styles.contactInfo}>
+                <div className={styles.contactInfoImgParent}>
+                    <img className={styles.contactInfoImg} src="/images/common/Subtract.svg"/>
                 </div>
-                <div className={styles.contactDetail}>
-                    <div className={styles.contactImageContainer}>
-                        <img src="/images/Subtract.svg"/>
-                    </div>
-                    <p>Office Hours - 9am - 6 pm</p>
+                <p className={styles.contactInfoText}>hello@littlelearners.com</p>
+            </div>  
+            <div className={styles.contactInfo}>
+                <div className={styles.contactInfoImgParent}>
+                    <img className={styles.contactInfoImg} src="/images/common/Subtract.svg"/>
                 </div>
-            </div>
+                <p className={styles.contactInfoText}>hello@littlelearners.com</p>
+            </div>    
+            </div>  
         </div>
     </div>);
 }

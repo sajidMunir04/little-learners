@@ -12,7 +12,9 @@ function EventCard(props : Props)
     return (<div className={styles.container}>
         <div className={styles.imageContainer}>
             <div className={styles.imageBackground}>
+                <div className={styles.backgroundRenderer}>
 
+                </div>
             </div>
             <div className={styles.imageParent}>
                 <img className={styles.image} src={props.imageLink} alt="info image"/>
