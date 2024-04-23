@@ -6,8 +6,8 @@ function Footer()
     return (<div className={styles.container}>
         <div className={styles.subContainer}>
             <div className={styles.infoContainer}>
-                <div>
-                    <div>
+                <div className={styles.brandContainer}>
+                    <div className={styles.logoContainer}>
                         <img src="/Logo(1).svg"/>
                     </div>
                     <p className={styles.mottoText}>We believe in the power of play to foster creativity, problem-solving skills, and imagination.</p>

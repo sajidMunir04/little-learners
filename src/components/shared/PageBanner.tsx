@@ -16,13 +16,11 @@ function PageBanner(props : Props)
             <img className={styles.absImage} src="/images/common/boxes.svg"/>
         </div>
         <div className={styles.headingContainer}>
-            <div>
-                <div className={styles.subContainer}>
-                    <p className={styles.text}>{props.subText}</p>
-                </div>
+            <div className={styles.subContainer}>
+                <p className={styles.text}>{props.subText}</p>
+            </div>
                 <h1 className={styles.headingText}>{props.heading}</h1>
             </div>
-        </div>
         <div className={styles.textContainer}>
             <p className={styles.descriptionText}>{props.description}</p>   
         </div>

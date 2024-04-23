@@ -69,3 +69,34 @@
     color: var(--gray-15);
     text-decoration: none;
 }
+
+.menuButton{
+    width: 26%;
+    background-color: var(--orange-95);
+    display: flex;
+    border-left: 2px solid var(--gray-15);
+    display: none;
+}
+
+.menuBtnImage{
+    margin: auto;
+    width: 25%;
+}
+
+@media (max-width: 700px) {
+    .navSection{
+        display: none;
+    }
+
+    .excessMargin{
+
+    }
+
+    .showHiddenContent{
+        display: flex;
+    }
+
+    .menuButton{
+        display: flex;
+    }
+}

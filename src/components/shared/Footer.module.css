@@ -18,6 +18,14 @@
     justify-content: space-between;
 }
 
+.brandContainer{
+
+}
+
+.logoContainer{
+
+}
+
 .infoContainer{
     width: 34%;
 }
@@ -136,4 +144,54 @@
     text-align: center;
     font-family: Outfit-Medium;
     color: var(--gray-40);
+}
+
+@media (max-width: 700px) {
+    .subContainer{
+        flex-direction: column;
+    }
+
+    .infoContainer{
+        width: 100%;
+    }
+
+    .brandContainer{
+        width: 100%;
+        text-align: center;
+    }
+
+    .logoContainer{
+        width: 50%;
+        margin: auto;
+    }
+
+    .linksContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: fit-content;
+        max-height: 400px;
+    }
+
+    .links{
+        flex: 1 0 50%;
+    }
+
+    .brandLinkSection{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .policiesSection{
+        width: 100%;
+    }
+
+    .socialLinkSection{
+        margin-top: 6%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 }

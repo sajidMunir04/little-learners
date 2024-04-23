@@ -50,3 +50,11 @@
 .descriptionText{
 
 }
+
+@media (max-width: 700px) {
+    .container{
+        padding-block: 8%;
+        width: 100%;
+        margin-bottom: 16%;
+    }
+}

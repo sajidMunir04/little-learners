@@ -1,13 +1,20 @@
+import { useState } from "react";
 import styles from "./Header.module.css";
 
 
 function Header()
 {
-    return (<div className={styles.container}>
+    const [isMenuOpen,setMenuState] = useState(false);
+
+    const handleClick = () => {
+        setMenuState(!isMenuOpen);
+    }
+    
+    return (<div className={`${styles.container} ${isMenuOpen && styles.excessMargin}`}>
         <div className={styles.logoContainer}>
             <img className={styles.logo} src="/Logo(1).svg" alt="brand logo"/>
         </div>
-        <nav className={styles.navSection}>
+        <nav className={`${styles.navSection} ${isMenuOpen && styles.showHiddenContent}`}>
             <div className={styles.linkContainer}>
                 <a className={styles.link} href="/">Home</a>
             </div>
@@ -27,6 +34,9 @@ function Header()
                 <a className={styles.link} href="/contact">Contact</a>
             </div>
         </nav>
+        <div onClick={handleClick} className={styles.menuButton}>
+            <img className={styles.menuBtnImage} src="/images/common/menu.svg"/>
+        </div>
     </div>);
 }
 

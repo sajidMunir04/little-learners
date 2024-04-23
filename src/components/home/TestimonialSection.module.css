@@ -35,8 +35,29 @@
 
 .buttonContainerLast{
     width: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+}
+@media (max-width: 700px) {
+
+    .subContainer{
+        margin-top: 16%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contentContainer{
+        width: fit-content;
+        flex-direction: row;
+    }
+
+    .buttonContainer{
+        order: 5;
+        align-self: center;
+        width: 20%;
+    }
+    
+    .buttonContainerLast{
+        order: 5;
+        width: 20%;
+        align-self: center;
+    }
 }

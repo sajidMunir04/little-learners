@@ -22,3 +22,13 @@
     justify-content: space-between;
     height: fit-content;
 }
+
+@media (max-width: 700px) {
+    .contentContainer{
+        flex-direction: column;
+    }
+
+    .portion{
+        width: 100%;
+    }
+}

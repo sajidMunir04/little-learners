@@ -2,3 +2,9 @@
     color: var(--gray-20);
     font-family: Outfit-Medium;
 }
+
+@media (max-width: 700px) {
+    .text {
+        font-size: 16px;
+    }
+}

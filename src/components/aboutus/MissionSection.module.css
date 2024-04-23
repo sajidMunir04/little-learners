@@ -14,3 +14,12 @@
     justify-content: space-between;
 }
 
+@media (max-width: 700px) {
+
+    .container{
+        height: max-content;
+    }
+    .contentContainer{
+        flex-direction: column;
+    }
+}

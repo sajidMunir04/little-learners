@@ -5,7 +5,7 @@
     padding: 0% var(--padding-sides);
     box-sizing: border-box;
     display: flex;
-    height: 560px;
+    height: fit-content;
     justify-content: space-between;
 }
 
@@ -164,4 +164,26 @@
     font-family: Outfit-Medium;
     font-size: 16px;
     color: var(--gray-15);
+}
+
+@media (max-width: 700px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .imageSection{
+        width: 100%;
+    }
+
+    .textSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .statsSection{
+        flex-direction: column;
+    }
 }
