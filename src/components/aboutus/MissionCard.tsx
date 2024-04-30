@@ -13,8 +13,8 @@ function MissionCard(props : Props)
             <div>
                 <h3 className={styles.headingText}>{props.heading}</h3>
             </div>
-            <div>
-                <img src={props.imageLink}/>
+            <div className={styles.imageContainer}>
+                <img className={styles.image} src={props.imageLink}/>
             </div>
         </div>
         <div>

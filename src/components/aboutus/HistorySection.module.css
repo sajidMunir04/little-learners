@@ -45,6 +45,7 @@
     box-sizing: border-box;
     border-radius: 8px;
     position: relative;
+    box-shadow: 4px 4px 0px 2px var(--gray-10);
 }
 
 .infoPointFirstSection::before{
@@ -179,18 +180,55 @@
 @media (max-width: 700px) {
 
     .infoPointContainer{
-        
+        height: fit-content;   
+    }
+
+    .container{
+        height: max-content;
+    }
+
+    .contentContainer{
+        height: fit-content;
     }
 
     .infoPoint{
         flex-direction: column;
+        height: max-content;
+        justify-content: flex-start;
     }
 
     .infoPointFirstSection{
-        width: 84%;
+        width: 90%;
+        height: 120px;
+        padding: 0%;
+        margin-bottom: 12%;
     }
 
     .infoPointContentContainer{
         width: 100%;
+    }
+
+    .infoPointContentContainerAltered{
+        width: 100%;
+    }
+
+    .infoPointContentContainer::before{
+        left: -10%;
+        top: -27%;
+        height: 142%;
+    }
+    
+    .infoPointContentContainer::after{
+        left: -10%;
+        top: -32%;
+    }
+
+    .infoPointContentContainerAltered::after{
+        left: -10%;
+        top: -32%;
+    }
+
+    .infoPointFirstSection::before{
+        left: -20%;
     }
 }

@@ -9,14 +9,19 @@
     align-items: center;
     grid-auto-rows: min-content;
     overflow: hidden;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .contentContainer{
-    height: 100%;
     grid-area: 1 / 1 / 2 / 2;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 .description{
@@ -59,6 +64,11 @@
     overflow: hidden;
 }
 
+.textArrow{
+    font-size: 28px;
+    margin: 0%;
+}
+
 .secondImage{
     max-width: 100%;
     max-height: 100%;
@@ -96,6 +106,7 @@
 
 .textContainer{
     width: 26%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -104,4 +115,57 @@
 
 .arrowImage{
     margin-left: 5%;
+}
+
+@media (max-width: 700px) {
+    .textContainer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1%;
+    }
+
+    .largePatternContainer{
+        position: absolute;
+        right: 80%;
+        top: 0%;
+        width: 50px;
+        height: 50px;
+    }
+
+    .patternContainer{
+        position: absolute;
+        left: 86%;
+        top: 10%;
+        width: 44px;
+        height: 44px;
+    }
+
+    .imageContainer{
+        width: 16%;
+        margin-top: 2.6%;
+        height: 120%;
+    }
+
+    .description{
+        font-size: 14px;
+    }
+
+    .image{
+        width: 100%;
+        height: 100%;
+    }
+    .secondImage{
+        width: 100%;
+        height: 100%;
+    }
+
+    .secondImageContainer{
+        width: 16%;
+        margin-top: 2.6%;
+        height: 120%;
+    }
 }

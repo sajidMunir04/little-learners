@@ -30,6 +30,7 @@
     width: auto;
     background-color: var(--orange-65);
     display: flex;
+    border-right: 2px solid var(--gray-15);
 }
 
 .logo{
@@ -78,6 +79,11 @@
     display: none;
 }
 
+
+.excessMargin{
+    margin-bottom: 54%;
+}
+
 .menuBtnImage{
     margin: auto;
     width: 25%;
@@ -86,10 +92,41 @@
 @media (max-width: 700px) {
     .navSection{
         display: none;
+        position: absolute;
+        flex-direction: column;
+        width: 90%;
+        height: 20%;
+        top: 15%;
+        box-sizing: border-box;
+        align-items: center;
+        border: 2px solid var(--gray-15);
+        box-shadow: 4px 4px 0px 2px var(--gray-10);
+        border-radius: 12px;
     }
 
-    .excessMargin{
+    .linkContainer{
+        display: inline-block;
+        width: 30%;
+        padding: 0% 2%;
+        border: none;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid var(--gray-15);
+        margin-top: -1px;
+    }
 
+    .contactLinkContainer{
+        background-color: transparent;
+        border: none;
+    }
+
+    .link{
+        width: 100%;
+    }
+    .navBarShown{
+        display: flex;
     }
 
     .showHiddenContent{

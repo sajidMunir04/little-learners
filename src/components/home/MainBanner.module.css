@@ -166,6 +166,22 @@
     color: var(--gray-15);
 }
 
+.abstractImageContainer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+}
+
+.topAndBottomBorder{
+
+}
+
+.abstractImage{
+    width: 68%;
+    margin: auto;
+}
+
 @media (max-width: 700px) {
     .container{
         flex-direction: column;
@@ -185,5 +201,16 @@
 
     .statsSection{
         flex-direction: column;
+    }
+
+    .topAndBottomBorder{
+        width: 80%;
+        border-top: 2px solid var(--gray-15);
+        border-bottom: 2px solid var(--gray-15);
+    }
+
+    .subText{
+        margin: auto;
+        margin-top: 10%;
     }
 }

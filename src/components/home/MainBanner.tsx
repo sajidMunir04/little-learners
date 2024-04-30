@@ -7,7 +7,9 @@ function MainBanner()
         <div className={styles.imageSection}>
             <div className={styles.imageContainer}>
                 <img className={styles.image} src="/Image.png" alt="children posing for an image"/>
-                <div className={styles.markerContainer}>
+                <div className={styles.markerContainer}></div>
+                <div className={styles.abstractImageContainer}>
+                    <img className={styles.abstractImage} src="/images/home/design.svg"/>
                 </div>
             </div>
         </div>
@@ -23,7 +25,7 @@ function MainBanner()
                     <p className={styles.statFigure}>+7000</p>
                     <p className={styles.statText}>Students Passed Out</p>
                 </div>
-                <div>
+                <div className={styles.topAndBottomBorder}>
                     <p className={styles.statFigure}>+37</p>
                     <p className={styles.statText}>Awards & Recognitions</p>
                 </div>
