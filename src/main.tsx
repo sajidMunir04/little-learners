@@ -10,36 +10,11 @@ import Home from './pages/Home.tsx';
 import StudentLife from './pages/StudentLife.tsx';
 import './App.css';
 import './fonts.css';
+import App from './App.tsx';
 
-const router = createBrowserRouter([
-  {
-      path: "/",
-      element: <Home/> 
-  },
-  {
-      path: "/about",
-      element: <About/>
-  },
-  {
-    path: "/academics",
-    element: <Academics/>  
-  },
-  {
-    path: "/admissions",
-    element: <Admission/>  
-  },
-  {
-    path: "/studentlife",
-    element: <StudentLife/>  
-  },
-  {
-    path: "/contact",
-    element: <Contact/>  
-  }
-]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <App/>
   </React.StrictMode>,
 )

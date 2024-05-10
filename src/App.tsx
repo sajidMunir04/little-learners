@@ -1,14 +1,12 @@
-
 import './fonts.css';
 import './App.css'
-import { createBrowserRouter } from 'react-router-dom';
-import Home from './pages/Home';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import About from './pages/About';
 import Academics from './pages/Academics';
 import Admission from './pages/Admission';
-import StudentLife from './pages/StudentLife';
 import Contact from './pages/Contact';
-
+import Home from './pages/Home';
+import StudentLife from './pages/StudentLife';
 function App() {
   const router = createBrowserRouter([
     {
@@ -35,8 +33,10 @@ function App() {
       path: "/contact",
       element: <Contact/>  
     }
-]);
+  ]);
+
   return (<>
+    <RouterProvider router={router}/>
   </>);
 }
 

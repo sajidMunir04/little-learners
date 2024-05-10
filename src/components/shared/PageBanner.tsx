@@ -1,4 +1,3 @@
-import HeadingSubText from "./HeadingSubText";
 import styles from "./PageBanner.module.css";
 
 
