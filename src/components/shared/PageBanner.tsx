@@ -1,6 +1,5 @@
 import styles from "./PageBanner.module.css";
 
-
 interface Props {
     subText: string,
     heading: string,
