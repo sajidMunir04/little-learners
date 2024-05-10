@@ -21,8 +21,6 @@ function TestimonialSection(){
                     second home for my child. The caring staff and engaging programs have made her excited to go to school every day!"/>
                     <TestimonialCard authorImageLink="/Icon(2).svg" authorName="Jennifer B 3" rating={5} review="Little Learners Academy has been a 
                     second home for my child. The caring staff and engaging programs have made her excited to go to school every day!"/>
-                    <TestimonialCard authorImageLink="/Icon(2).svg" authorName="Jennifer B 4" rating={5} review="Little Learners Academy has been a 
-                    second home for my child. The caring staff and engaging programs have made her excited to go to school every day!"/>
                 </div>
             </div>
             <div className={styles.buttonContainerLast}>

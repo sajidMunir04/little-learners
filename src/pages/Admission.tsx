@@ -3,9 +3,11 @@ import FeeSection from "../components/admission/FeeSection";
 import Footer from "../components/shared/Footer";
 import Header from "../components/shared/Header";
 import PageBanner from "../components/shared/PageBanner";
+import SaleBanner from "../components/shared/SaleBanner";
 
 function Admission() {
     return (<>
+     <SaleBanner description='Admission is Open, Grab your seat now'/>
     <Header/>
     <PageBanner subText={"Admission"} heading={"Join Our Family of Young Learners"} description={"At Little Learners Academy, we welcome you to embark on an exciting educational journey for your child. Our admission process is designed to be transparent, straightforward, and inclusive. Here's a step-by-step guide to joining our school"}/>
     <AdmissionSection/>

@@ -36,7 +36,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     flex-wrap: nowrap;
-    width: fit-content;
+    width: 2000px;
 }
 
 .buttonContainer{
