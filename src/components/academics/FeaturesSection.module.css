@@ -2,6 +2,7 @@
     width: 100%;
     padding: 0% var(--padding-sides);
     box-sizing: border-box;
+    margin-top: 4%;
 }
 
 .contentContainer{
@@ -9,4 +10,5 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 4%;
 }

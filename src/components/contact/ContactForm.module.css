@@ -3,6 +3,7 @@
     padding: 0% var(--padding-sides);
     box-sizing: border-box;
     margin-bottom: 4%;
+    margin-top: 4%;
 }
 
 .contentContainer{
@@ -54,6 +55,8 @@
     color: var(--gray-35);
     -moz-appearance: textfield;
     appearance: textfield;
+    border-radius: 8px;
+    height: 32px;
 }
 
 .textArea{
@@ -63,6 +66,7 @@
     background: none;
     margin-top: 3%;
     color: var(--gray-35);
+    border-radius: 8px;
 }
 
 .button{
@@ -74,5 +78,28 @@
     color: var(--gray-15);
     font-family: Outfit-Medium;
     font-size: 20px;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
+    border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+    .inputFieldSection{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fieldContainer{
+        width: 82%;
+    }
+
+    .textAreaLabel{
+        width: 82%;
+        margin: auto;
+    }
+
+    .button{
+        width: 82%;
+        margin: auto;
+        margin-top: 30px;
+    }
 }

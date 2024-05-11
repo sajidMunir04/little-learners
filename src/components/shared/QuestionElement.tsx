@@ -28,8 +28,8 @@ function QuestionElement(props : Props)
         </div>
         <div className={styles.buttonContainer}>
             <div className={styles.button} onClick={handleClick}>
-                {!isClicked && <img className={styles.btnImage} src="/plus.svg"/>}
-                {isClicked && <img className={styles.btnImage} src="/minus.svg"/>}
+                {!isClicked && <p className={styles.indicator}>&#x2b;</p>}
+                {isClicked && <p className={styles.indicator}>&#x2012;</p>}
             </div>
         </div>
     </div>);

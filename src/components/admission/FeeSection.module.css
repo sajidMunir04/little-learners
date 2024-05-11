@@ -114,4 +114,9 @@
         flex-wrap: nowrap;
         overflow: scroll;
     }
+
+    .programTableContainer{
+        width: 200%;
+        overflow: hidden;
+    }
 }

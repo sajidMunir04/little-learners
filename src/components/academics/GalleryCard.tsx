@@ -9,7 +9,7 @@ interface Props {
 
 function GalleryCard(props : Props)
 {
-    return (<div className={styles.container}>
+    return (<div className={styles.container}>    
         <div className={styles.imagesContainer}>
             {props.imagesLink.map((item) => (<div className={styles.imageParent}>
                 <img className={styles.image} src={item} alt="gallery image"/>
