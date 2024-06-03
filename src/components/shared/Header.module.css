@@ -82,7 +82,7 @@
 
 
 .excessMargin{
-    margin-bottom: 280px;
+    margin-bottom: 340px;
 }
 
 .menuBtnImage{
@@ -90,7 +90,7 @@
     width: 25%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .navSection{
         display: none;
         position: absolute;

@@ -2,7 +2,7 @@
     width: 100%;
     padding: 0% var(--padding-sides);
     box-sizing: border-box;
-    height: 540px;
+    height: max-content;
     margin-top: 4%;
 }
 
@@ -25,7 +25,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    overflow-x: scroll;
 }
 
 .cardsContainer{
@@ -36,7 +35,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     flex-wrap: nowrap;
-    width: 2000px;
+    width: max-content;
 }
 
 .buttonContainer{
@@ -49,16 +48,20 @@
     justify-content: flex-end;
     align-items: center;
 }
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
 
     .subContainer{
-        margin-top: 16%;
+        margin-top: 6%;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .contentContainer{
-        width: fit-content;
+        width: max-content;
+    }
+
+    .cardsContainer{
+        flex-direction: column;
     }
 
     .buttonContainer{
@@ -70,7 +73,7 @@
     
     .buttonContainerLast{
         order: 5;
-        width: 10%;
+        width: 20%;
         align-self: center;
         margin-top: 4%;
     }

@@ -35,3 +35,9 @@
 .contentContainer{
     height: 90%;
 }
+
+@media (max-width: 1100px) {
+    .buttonsContainer{
+        display: none;
+    }
+}
