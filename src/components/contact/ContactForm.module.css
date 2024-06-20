@@ -56,7 +56,6 @@
     -moz-appearance: textfield;
     appearance: textfield;
     border-radius: 8px;
-    height: 32px;
 }
 
 .textArea{
@@ -102,4 +101,5 @@
         margin: auto;
         margin-top: 30px;
     }
+
 }
