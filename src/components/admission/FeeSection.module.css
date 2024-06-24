@@ -56,6 +56,13 @@
     box-sizing: border-box;
     height: 400px;
     box-shadow: 4px 4px 0px 2px var(--gray-10);
+    overflow-x: scroll;
+}
+
+.firstTable{
+    width: 110%;
+    height: 420px;
+    overflow: scroll;
 }
 
 .servicesTableContainer{
@@ -116,7 +123,6 @@
     }
 
     .programTableContainer{
-        width: 200%;
-        overflow: hidden;
+        width: max-content;
     }
 }

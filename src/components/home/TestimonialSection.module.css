@@ -61,7 +61,7 @@
     }
 
     .cardsContainer{
-        width: max-content;
+        width: 100%;
         flex-direction: column;
     }
 

@@ -11,6 +11,7 @@ function FeeSection()
             based on the program, age group, and any additional services chosen."/>
         </div>
         <div className={styles.contentContainer}>
+            <div className={styles.firstTable}>
             <div className={styles.programTableContainer}>
                 <table className={styles.programHeadingTable}>
                     <tr className={styles.programTableRow}>
@@ -45,6 +46,7 @@ function FeeSection()
                     </tr>
                 </table>
             </div>
+            </div> 
             <div className={styles.servicesTableContainer}>
                 <table className={styles.sectionHeadingTable}>
                     <tr className={styles.serviceTableRow}>

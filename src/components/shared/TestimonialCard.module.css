@@ -60,5 +60,6 @@
 @media (max-width: 1100px) {
     .container{
         margin-block: 2%;
+        width: 100%;
     }
 }
